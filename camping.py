@@ -107,7 +107,7 @@ def main(parks):
                         url = "https://www.recreation.gov/camping/campgrounds/"+str(desired_sites[0])+"/availability"
                         message = client.messages \
                                 .create(
-                                    body="Available: " + availible_sites[0] + ": " + url " from " + start + " to " + end,
+                                    body="Available: " + availible_sites[0] + ": " + url + " from " + start + " to " + end,
                                     from_='+14132878694',
                                     to='+14133357767'
                         )
