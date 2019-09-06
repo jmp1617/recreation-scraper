@@ -12,8 +12,8 @@ from fake_useragent import UserAgent
 
 site_found = False
 
-account_sid = 'ACfa30c5f4d3d76ab6581d5e04c4dc826f'
-auth_token = '9cb0e4c540353310f1ecbd02489393f4'
+account_sid = ''
+auth_token = ''
 
 BASE_URL = "https://www.recreation.gov"
 AVAILABILITY_ENDPOINT = "/api/camps/availability/campground/"
