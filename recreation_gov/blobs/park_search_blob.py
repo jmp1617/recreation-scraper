@@ -1,1 +1,0 @@
-# entitly type "recarea"

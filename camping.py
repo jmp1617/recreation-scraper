@@ -1,3 +1,3 @@
-import recreation_gov.api.park_search_api as test
+import recreation_gov.park_search as test
 
-print(test.park_search_request("yosemite").get('inventory_suggestions'))
+print(test.park_search("yosemite"))
