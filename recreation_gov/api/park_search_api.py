@@ -5,7 +5,7 @@ leverage recreation.gov's inventory search api to get a list of
 national parks and suggested locations
 """
 
-import recreation_gov.api.meta_api as api
+import recreation_gov.api.api_helper as api
 
 
 URL = api.BASE_URL + api.PARK_SEARCH_ENDPOINT

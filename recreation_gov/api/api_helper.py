@@ -1,5 +1,5 @@
 """
-recreation_gov/api/meta_api.py
+recreation_gov/api/api_helper.py
 
 constants for all api requests
 """
